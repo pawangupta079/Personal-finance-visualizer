@@ -1,0 +1,4 @@
+The public directory is intended for static assets like images and icons. Since you haven't specified any particular assets, I will provide a comment indicating that this directory is meant for such files.
+
+personal-finance-visualizer/public/ 
+# This directory is intended for static assets like images, icons, etc.

@@ -1,0 +1,35 @@
+{
+  "name": "personal-finance-visualizer",
+  "version": "1.0.0",
+  "description": "A web application to visualize personal finance data, including transaction management and expense charts.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "finance",
+    "visualization",
+    "personal finance",
+    "react",
+    "next.js"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chart.js": "^3.9.1",
+    "mongoose": "^6.0.0",
+    "next": "^12.0.0",
+    "react": "^17.0.0",
+    "react-chartjs-2": "^3.3.0",
+    "react-dom": "^17.0.0",
+    "tailwindcss": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-next": "^11.0.0",
+    "postcss": "^8.0.0"
+  }
+}
