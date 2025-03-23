@@ -1,6 +1,8 @@
 import React from 'react';
 
-const TransactionList = ({ transactions, onDelete }) => {
+const TransactionList = ({ transactions, onDelete = () => {} }) => {
+    console.log(onDelete); // Debugging: Ensure this logs the function
+
     return (
         <div>
             <h2 className="text-xl font-bold mb-4">Transaction List</h2>
@@ -19,5 +21,7 @@ const TransactionList = ({ transactions, onDelete }) => {
             </ul>
         </div>
     );
+    
 };
+
 export default TransactionList;
