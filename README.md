@@ -45,7 +45,7 @@ Add Transactions: Use the interface to log income or expenses, specifying amount
 View Reports: Navigate to the reports section to see visual summaries of your financial data.
 Set Budgets: Define monthly budget limits for each category to track overspending.
 Export Data: Export your transaction history or reports as CSV or PDF for record-keeping.
-
+```
 Project Structure
 personal-finance-visualizer/
 │
@@ -57,7 +57,7 @@ personal-finance-visualizer/
 │   └── visualization/    # Chart and report generation
 ├── tests/                # Unit tests
 └── README.md             # Project documentation
-
+```
 Contributing
 We welcome contributions! To contribute:
 
