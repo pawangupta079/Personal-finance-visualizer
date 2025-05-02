@@ -19,23 +19,24 @@ Git (for cloning the repository)
 
 Steps
 
+```
 Clone the repository:
 git clone https://github.com/username/personal-finance-visualizer.git
 cd personal-finance-visualizer
-
-
+```
+```
 Create a virtual environment (optional but recommended):
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-
+```
+```
 Install dependencies:
 pip install -r requirements.txt
-
-
+```
+```
 Run the application:
 python main.py
-
+```
 
 
 Usage
